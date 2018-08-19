@@ -1,2 +1,2 @@
 # Generative-adversarial-networks
-Generation of handwritten digits
+Generation of handwritten digits using keras(tensorflow-backend)
