@@ -118,7 +118,7 @@ def train(epochs=1,batchSize=128):
             discriminator.trainable=False
             gan.train_on_batch(noise,y)
             
-        if(i==1or i%20==0):
+        if(i==1 or i%20==0):
             plot_generated_images(i,generator)
 if __name__=='__main__':
     train(400,128) 
